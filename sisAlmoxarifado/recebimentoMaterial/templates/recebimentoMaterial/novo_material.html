@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Adição de Novos Materiais no Sistema</title>
+    </head>
+    <body>
+        
+    <div>
+        
+    </div>
+        <div>
+            <form method="POST">{% csrf_token %}
+                {{ form.as_p }}
+            </form>
+            <h1>Cadastro de Novo Material</a></h1>
+        </div>
+
+        <div>
+            <h2>Insira o Nome do material</h2>
+        </div>
+
+        <div>
+            <h2>Insira o Tipo do material</h2>
+        </div>
+
+        <div>
+            <h2>Insira a Unidade do material</h2>
+        </div>
+
+        <button type="submit">Salvar</button>
+        
+
+    </body>
+</html>
